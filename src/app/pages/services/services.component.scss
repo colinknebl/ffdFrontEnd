@@ -1,0 +1,29 @@
+@import '../../../assets/scss/variables',
+        '../../../assets/scss/extensions',
+        '../../../assets/scss/main-classes';
+
+.services-section-jumbotron {
+  background: {
+    image: url('../../../assets/images/dental-tools.jpg');
+    position: center;
+    size: cover;
+  }
+}
+
+
+.services-links {
+  width: 100%;
+  max-width: $max-width;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.services-links-header {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid $blue;
+  display: inline-block;
+}
+.services-links-list {
+  list-style-position: inside;
+  text-indent: -24px; 
+  margin-left: 20px;
+}

@@ -1,0 +1,42 @@
+@import '../../../assets/scss/variables',
+        '../../../assets/scss/extensions',
+        '../../../assets/scss/main-classes';
+
+.education-section-jumbotron {
+  background: {
+    image: url('../../../assets/images/education-banner.jpg');
+    position: center;
+    size: cover;
+  }
+}
+
+.education-main-section {
+  max-width: $max-width;
+  margin: auto;
+}
+
+.education-links {
+  margin-bottom: 2rem;
+}
+.education-links-header {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid $blue;
+  display: inline-block;
+}
+.education-links-list {
+  list-style-position: inside;
+  text-indent: -24px; 
+  margin-left: 20px;
+}
+.education-link-list-item {
+  text-decoration: none;
+  color: $blue;
+  
+  &:hover, &:active {
+    border-bottom: 2px solid $blue;
+  }
+}
+
+.disclaimer {
+  margin-bottom: 3rem;
+}
